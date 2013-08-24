@@ -1,16 +1,20 @@
 //<?php
-/**************************************/
-/** HtmlInLine plugin for MODX Revo
-*
-* @version 1.1
-* @author Borisov Evgeniy aka Agel Nash (agel-nash@xaker.ru)
-*
-* @category plugin
-* @internal @event OnWebPagePrerender
-* @internal @modx_category HTML-code
-*
-*/
-/*************************************/
+/** 
+ * HtmlInLine 
+ * 
+ * HtmlInLine plugin for MODX Evo
+ *
+ * @category    plugin 
+ * @version     1.1 
+ * @license     http://www.gnu.org/copyleft/gpl.html GNU Public License (GPL) 
+ * @internal    @properties 
+ * @internal    @events OnWebPagePrerender 
+ * @internal    @modx_category Content 
+ * @internal    @legacy_names HtmlInLine
+ * @internal    @installset base
+ */
+//author Borisov Evgeniy aka Agel Nash (agel-nash@xaker.ru)
+
 $e =&$modx->event;
 switch ($e->name) {
     case "OnWebPagePrerender":{
